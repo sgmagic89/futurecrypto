@@ -95,7 +95,7 @@ a:hover, a:focus {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6,
 .h01, .h02, .h03, .h04, .h05, .h06 {
-  font-family: "montserrat-bold", sans-serif;
+  font-family: "montserrat", sans-serif;
   color: #151515;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -798,8 +798,9 @@ button.large, .button.large {
 
 button.stroke, .button.stroke {
   background: transparent !important;
-  border: 3px solid #313131;
+  border: 3px solid #ffffff;
   line-height: 4.8rem;
+  color: white;
 }
 
 button.stroke.medium, .button.stroke.medium {
@@ -811,8 +812,8 @@ button.stroke.large, .button.stroke.large {
 }
 
 button.stroke:hover, .button.stroke:hover {
-  border: 3px solid #f9a828;
-  color: #f9a828;
+  border: 3px solid #ffffff;
+  color: #ffffff;
 }
 
 button::-moz-focus-inner,
@@ -1296,6 +1297,8 @@ header .header-logo a {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
+
 #header-menu-trigger.opaque {
   background-color: #000000;
 }
@@ -1509,7 +1512,7 @@ header .header-logo a {
   width: 100%;
   height: 100%;
   background-color: #151515;
-  background-image: url(../images/steal-private-keys-from-PC.jpg);
+  background-image: url(../images/main.jpg);
   background-repeat: no-repeat;
   background-position: center 30%;
   -webkit-background-size: cover;
@@ -2315,8 +2318,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin-top: 4.2rem;
 }
 #testimonial-slider .testimonial-author img {
-  width: 7.4rem;
-  height: 7.4rem;
+  width: 40rem;
+  height: 40rem;
   margin: 0 auto 1.2rem auto;
   display: block;
   border-radius: 50%;
@@ -2998,4 +3001,153 @@ footer h4.h05::after {
 
 .dollar {
   fill: blue;
+}
+
+
+
+.upcoming{
+  font-size: 10rem !important;
+}
+
+
+#btnRegister:hover{
+ background: rgba(202, 169, 103, 0.74) !important;
+}
+
+#btnLogin {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+#btnRegister {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+#btnLogin:hover{
+  background: rgba(170, 245, 57, 0.397) !important;
+ }
+
+ #btnLearnMore:hover{
+  background: rgba(255, 192, 203, 0.541) !important;
+ }
+
+ #phone{
+   font-size: 3rem;
+ }
+
+ #rate {
+   font-size: 5rem;
+   margin-bottom: 12rem;
+   font-weight: bold;
+ }
+
+ #about h3::before {
+   height: 0;
+ }
+
+ #payment {
+   font-size: 2rem;
+   color: white;
+ }
+
+ #acct {
+  display: inline-flex;
+  position: absolute;
+  right: 400px;
+  top: 25px;
+  height: 42px;
+  width: 42px;
+  line-height: 42px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-right: 4rem;
+}
+
+#map{
+  max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 2000px) {
+  #rate {
+    font-size: 5rem;
+    margin-bottom: 6rem;
+  }
+
+  #maintext {
+    font-size: 4rem;
+  }
+
+  .header-account {
+    visibility: hidden;
+  }
+  
+}
+
+@media only screen and (max-width: 1280px) {
+  #rate {
+    font-size: 3rem;
+    margin-bottom: 6rem;
+  }
+
+  #maintext {
+    font-size: 4rem;
+  }
+
+  .header-account {
+    visibility: hidden;
+  }
+  
+}
+
+ @media only screen and (max-width: 1028px) {
+  #rate {
+    font-size: 3rem;
+    margin-bottom: 6rem;
+  }
+
+  #maintext {
+    font-size: 4rem;
+  }
+  
+  .header-account {
+    visibility: hidden;
+  }
+  
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  #rate {
+    font-size: 2rem;
+    margin-bottom: 6rem;
+  }
+
+  #maintext {
+    font-size: 3rem;
+  }
+
+  #acct {
+    display: none;
+  }
+  .header-account {
+    visibility: visible;
+  }
+  
+}
+
+
+
+.header-account {
+  display: flex;
+  flex-direction: column;
+  LIST-STYLE-TYPE: NONE;
+  flex-direction: column-reverse;
+  margin-top: 50px;
+  margin-left: -15px;
 }
